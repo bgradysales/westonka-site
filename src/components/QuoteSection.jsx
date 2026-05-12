@@ -174,10 +174,31 @@ function LeadForm({ onSubmit }) {
 export default function QuoteSection() {
   const [submitted, setSubmitted] = useState(false);
 
-  function handleSubmit(event) {
-    event.preventDefault();
+async function handleSubmit(event) {
+  event.preventDefault();
+
+  const form = event.currentTarget;
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch("https://formspree.io/f/xkoyegav", {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json",
+      },
+    });
+
+    if (!response.ok) {
+      throw new Error("Form submission failed");
+    }
+
+    form.reset();
     setSubmitted(true);
+  } catch (error) {
+    alert("Something went wrong. Please call us at 612-562-9933.");
   }
+}
 
   return (
     <section
