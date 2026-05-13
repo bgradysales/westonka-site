@@ -18,34 +18,36 @@ const standardColors = [
 ];
 
 const woodgrainColors = [
-  { name: "Seashell", hex: "#DAD1C7", note: "Can be used for base color" },
-  { name: "Birchwood", hex: "#D0BDA4", note: "Can be used for base color" },
-  { name: "Antique Mahogany", hex: "#71472F", note: "Can be used for base color" },
-  { name: "Brazilian Walnut", hex: "#3A2A21", note: "Can be used for base color" },
-  { name: "Coastal Gray", hex: "#554A45", note: "Can be used for base color" },
-  { name: "Driftwood Gray", hex: "#6F6B68", note: "Can be used for base color" },
-  { name: "Marble", hex: "#D6D6D6", note: "Seats and backs only" },
-  { name: "Stone", hex: "#919796", note: "Seats and backs only" },
-  { name: "Grabe", hex: "#474D4E", note: "Seats and backs only" },
-  { name: "Barnboard", hex: "#585A4A", note: "Seats and backs only" },
-  { name: "Walnut", hex: "#63493B", note: "Seats and backs only" },
+  { name: "Seashell", image: "/colors/seashell.png", note: "Can be used for base color" },
+  { name: "Birchwood", image: "/colors/birchwood.png", note: "Can be used for base color" },
+  { name: "Antique Mahogany", image: "/colors/antique-mahogany.png", note: "Can be used for base color" },
+  { name: "Brazilian Walnut", image: "/colors/brazilian-walnut.png", note: "Can be used for base color" },
+  { name: "Coastal Gray", image: "/colors/coastal-gray.png", note: "Can be used for base color" },
+  { name: "Driftwood Gray", image: "/colors/driftwood-gray.png", note: "Can be used for base color" },
+  { name: "Marble", image: "/colors/marble.png", note: "Seats and backs only" },
+  { name: "Stone", image: "/colors/stone.png", note: "Seats and backs only" },
+  { name: "Grabe", image: "/colors/grabe.png", note: "Seats and backs only" },
+  { name: "Barnboard", image: "/colors/barnboard.png", note: "Seats and backs only" },
+  { name: "Walnut", image: "/colors/walnut.png", note: "Seats and backs only" },
 ];
 
-function ColorCard({ color, textured = false }) {
+function ColorCard({ color }) {
   return (
     <div className="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
       <div
-        className="h-24 w-full border-b border-stone-200"
+        className="h-24 w-full border-b border-stone-200 bg-cover bg-center"
         style={{
-          backgroundColor: color.hex,
-          backgroundImage: textured
-            ? `linear-gradient(90deg, rgba(255,255,255,.16), rgba(0,0,0,.12)), repeating-linear-gradient(0deg, rgba(255,255,255,.08) 0px, rgba(255,255,255,.08) 1px, transparent 1px, transparent 5px)`
-            : `linear-gradient(135deg, rgba(255,255,255,.14), rgba(0,0,0,.10))`,
+          backgroundImage: color.image
+            ? `url(${color.image})`
+            : undefined,
+          backgroundColor: color.hex || undefined,
         }}
       />
 
       <div className="px-4 py-4">
-        <p className="font-semibold text-stone-900">{color.name}</p>
+        <p className="font-semibold text-stone-900">
+          {color.name}
+        </p>
 
         {color.note && (
           <p className="mt-1 text-xs uppercase tracking-wide text-stone-500">
