@@ -54,13 +54,13 @@ function WhyPolySection() {
           </p>
 
           <h2 className="text-4xl font-bold mb-6">
-            Why Choose HDPE Outdoor Furniture in Minnesota?
+            Why Choose Poly Outdoor Furniture in Minnesota?
           </h2>
 
           <p className="text-lg text-stone-600 mb-8">
             Our outdoor furniture is built for harsh Minnesota
             climates. From snow and ice to sun and humidity,
-            HDPE poly furniture will not crack, rot, splinter,
+            HDPE recycled poly furniture will not crack, rot, splinter,
             or require painting.
           </p>
 
@@ -70,6 +70,8 @@ function WhyPolySection() {
               "Weather resistant",
               "Great for lake homes",
               "Comfortable and durable",
+              "Eco-friendly",
+              "Recycled materials",
             ].map((item) => (
               <div
                 key={item}
@@ -116,7 +118,7 @@ function CollectionsSection({ navigateTo }) {
           </div>
 
           <p className="max-w-xl text-stone-600">
-            Browse durable patio furniture, dock furniture,
+            Browse durable poly patio furniture, dock furniture,
             deck furniture, dining sets, gliders, benches,
             and conversation seating for Minnesota outdoor living.
           </p>
@@ -226,8 +228,8 @@ export default function HomePage({ navigateTo }) {
 
       <Hero
         title="Outdoor Furniture Near Lake Minnetonka"
-        eyebrow="Premium HDPE poly outdoor furniture"
-        description="Premium HDPE poly patio furniture designed for Minnesota weather."
+        eyebrow="Premium HDPE recycled poly outdoor furniture"
+        description="Premium HDPE recycled poly patio furniture designed for Minnesota weather."
         image={productCollections[0].image}
         primaryHref="/#collections"
         primaryLabel="Shop Outdoor Furniture"
