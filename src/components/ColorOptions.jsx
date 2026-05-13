@@ -1,46 +1,54 @@
 const standardColors = [
-  { name: "Black", hex: "#111111" },
-  { name: "Tudor Brown", hex: "#5B3524" },
-  { name: "Weatherwood", hex: "#8B8067" },
-  { name: "Dark Gray", hex: "#4B5552" },
-  { name: "Light Gray", hex: "#A9A5A0" },
-  { name: "Turf Green", hex: "#244D3B" },
-  { name: "Cherry Wood", hex: "#7F2E2E" },
-  { name: "Cedar", hex: "#A95E32" },
-  { name: "Patriot Blue", hex: "#0F2F4F" },
-  { name: "Blue", hex: "#2563A8" },
-  { name: "Bright White", hex: "#F8F8F8" },
-  { name: "Bright Red", hex: "#D71920" },
-  { name: "Aruba Blue", hex: "#1AA6A6" },
-  { name: "Tropical Lime", hex: "#7FAE4E" },
-  { name: "Lemon Yellow", hex: "#F4C542" },
-  { name: "Bright Orange", hex: "#F97316" },
+  { name: "Black", hex: "#141414" },
+  { name: "Tudor Brown", hex: "#402416" },
+  { name: "Weatherwood", hex: "#807256" },
+  { name: "Dark Gray", hex: "#5F615B" },
+  { name: "Light Gray", hex: "#908782" },
+  { name: "Turf Green", hex: "#2D4138" },
+  { name: "Cherry Wood", hex: "#612827" },
+  { name: "Cedar", hex: "#8E5637" },
+  { name: "Patriot Blue", hex: "#102432" },
+  { name: "Blue", hex: "#235891" },
+  { name: "Bright White", hex: "#F7F5F6" },
+  { name: "Bright Red", hex: "#CD1E1C" },
+  { name: "Aruba Blue", hex: "#1E9895" },
+  { name: "Tropical Lime", hex: "#78914C" },
+  { name: "Lemon Yellow", hex: "#FDC846" },
+  { name: "Bright Orange", hex: "#F66304" },
 ];
 
 const woodgrainColors = [
-  { name: "Seashell", hex: "#D8C6A8" },
-  { name: "Birchwood", hex: "#C9B997" },
-  { name: "Antique Mahogany", hex: "#7B3F22" },
-  { name: "Brazilian Walnut", hex: "#3B241B" },
-  { name: "Coastal Gray", hex: "#5F5F5A" },
-  { name: "Driftwood Gray", hex: "#8B8A84" },
-  { name: "Marble", hex: "#E5E5E0" },
-  { name: "Stone", hex: "#9A9A92" },
-  { name: "Grabe", hex: "#4B5550" },
-  { name: "Barnboard", hex: "#5B5A45" },
-  { name: "Walnut", hex: "#6B3F2A" },
+  { name: "Seashell", hex: "#DAD1C7", note: "Can be used for base color" },
+  { name: "Birchwood", hex: "#D0BDA4", note: "Can be used for base color" },
+  { name: "Antique Mahogany", hex: "#71472F", note: "Can be used for base color" },
+  { name: "Brazilian Walnut", hex: "#3A2A21", note: "Can be used for base color" },
+  { name: "Coastal Gray", hex: "#554A45", note: "Can be used for base color" },
+  { name: "Driftwood Gray", hex: "#6F6B68", note: "Can be used for base color" },
+  { name: "Marble", hex: "#D6D6D6", note: "Seats and backs only" },
+  { name: "Stone", hex: "#919796", note: "Seats and backs only" },
+  { name: "Grabe", hex: "#474D4D", note: "Seats and backs only" },
+  { name: "Barnboard", hex: "#585A4A", note: "Seats and backs only" },
+  { name: "Walnut", hex: "#63493B", note: "Seats and backs only" },
 ];
 
-function ColorPill({ color }) {
+function ColorCard({ color }) {
   return (
     <div className="overflow-hidden rounded-2xl border border-stone-200 bg-white shadow-sm">
       <div
-        className="h-20 w-full border-b border-stone-200"
+        className="h-24 w-full border-b border-stone-200"
         style={{ backgroundColor: color.hex }}
       />
 
-      <div className="px-4 py-3">
-        <p className="font-semibold text-stone-900">{color.name}</p>
+      <div className="px-4 py-4">
+        <p className="font-semibold text-stone-900">
+          {color.name}
+        </p>
+
+        {color.note && (
+          <p className="mt-1 text-xs uppercase tracking-wide text-stone-500">
+            {color.note}
+          </p>
+        )}
       </div>
     </div>
   );
@@ -74,7 +82,7 @@ export default function ColorOptions() {
 
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
               {standardColors.map((color) => (
-                <ColorPill key={color.name} color={color} />
+                <ColorCard key={color.name} color={color} />
               ))}
             </div>
           </div>
@@ -86,17 +94,15 @@ export default function ColorOptions() {
 
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
               {woodgrainColors.map((color) => (
-                <ColorPill key={color.name} color={color} />
+                <ColorCard key={color.name} color={color} />
               ))}
             </div>
-
-            <p className="mt-5 text-sm leading-relaxed text-stone-500">
-              Some premium finishes may only be available for seats and backs,
-              while others can be used as base colors. Availability may vary by
-              product.
-            </p>
           </div>
         </div>
+
+        <p className="mt-8 text-sm leading-relaxed text-stone-500">
+          Colors are matched from the provided swatch images. Actual colors may vary slightly by screen, lighting, and product.
+        </p>
       </div>
     </section>
   );
