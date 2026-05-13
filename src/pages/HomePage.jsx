@@ -156,7 +156,7 @@ function SeoCardsSection({ navigateTo }) {
 
           <p className="text-lg text-stone-600">
             Browse popular outdoor furniture categories and
-            learn more about durable HDPE patio furniture.
+            learn more about durable HDPE recycled poly patio furniture.
           </p>
         </div>
 
@@ -215,7 +215,7 @@ export default function HomePage({ navigateTo }) {
   useEffect(() => {
     updateMeta(
       "Outdoor Furniture Near Lake Minnetonka | Westonka Outdoor Living",
-      "Shop premium HDPE outdoor furniture near Lake Minnetonka."
+      "Shop premium recycled poly outdoor furniture near Lake Minnetonka."
     );
   }, []);
 
