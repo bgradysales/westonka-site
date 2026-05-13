@@ -28,11 +28,11 @@ export const productCollections = [
  {
   slug: "adirondack-chairs",
   title: "Adirondack Chairs",
-  image: "/src/assets/adirondack-chair-1.png",
-  gallery: [
-    "/src/assets/adirondack-chair-1.png",
-    "/src/assets/adirondack-chair-2.png",
-  ],
+ image: "/adirondack-chair-1.png",
+gallery: [
+  "/adirondack-chair-1.png",
+  "/adirondack-chair-2.png",
+],
   description:
     "Premium HDPE Adirondack chairs designed for Minnesota lake homes, patios, docks, and fire pit spaces.",
 
