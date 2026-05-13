@@ -35,7 +35,7 @@ export const productCollections = [
   ],
   description:
     "Premium HDPE Adirondack chairs designed for Minnesota lake homes, patios, docks, and fire pit spaces.",
-}
+
     metaTitle: "Adirondack Chairs Lake Minnetonka | Westonka Outdoor Living",
     metaDescription: "Shop durable HDPE Adirondack chairs near Lake Minnetonka for docks, patios, decks, fire pits, and lake homes.",
     eyebrow: "Classic Outdoor Seating",
