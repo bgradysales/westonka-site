@@ -2,8 +2,9 @@ import { useEffect } from "react";
 
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+
 import Footer from "../components/Footer";
-import LocationSection from "../components/LocationSection";
+import LocationSection from "../comimport ColorOptions from "../components/ColorOptions";ponents/LocationSection";
 import QuoteSection from "../components/QuoteSection";
 import CollectionCard from "../components/CollectionCard";
 
@@ -238,9 +239,11 @@ export default function HomePage({ navigateTo }) {
         navigateTo={navigateTo}
       />
 
-      <WhyPolySection />
+<WhyPolySection />
 
-      <CollectionsSection navigateTo={navigateTo} />
+<ColorOptions />
+
+<CollectionsSection navigateTo={navigateTo} />
 
       <SeoCardsSection navigateTo={navigateTo} />
 
