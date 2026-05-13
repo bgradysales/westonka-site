@@ -4,7 +4,8 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 
 import Footer from "../components/Footer";
-import LocationSection from "../comimport ColorOptions from "../components/ColorOptions";ponents/LocationSection";
+import LocationSection from "../components/LocationSection";
+import ColorOptions from "../components/ColorOptions";
 import QuoteSection from "../components/QuoteSection";
 import CollectionCard from "../components/CollectionCard";
 
