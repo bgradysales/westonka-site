@@ -25,11 +25,17 @@ export const productCollections = [
     ],
     bullets: ["Standard and counter-height options", "Great for patios and decks", "Low-maintenance HDPE poly", "Built for outdoor entertaining"],
   },
-  {
-    slug: "/adirondack-chairs-lake-minnetonka",
-    title: "Adirondack Chairs",
-    description: "Classic Adirondack-style outdoor seating for patios, docks, fire pits, and lake homes.",
-    image: "https://dutchboypoly.com/wp-content/uploads/2023/05/1-5-scaled.jpg",
+ {
+  slug: "adirondack-chairs",
+  title: "Adirondack Chairs",
+  image: "/src/assets/adirondack-chair-1.png",
+  gallery: [
+    "/src/assets/adirondack-chair-1.png",
+    "/src/assets/adirondack-chair-2.png",
+  ],
+  description:
+    "Premium HDPE Adirondack chairs designed for Minnesota lake homes, patios, docks, and fire pit spaces.",
+}
     metaTitle: "Adirondack Chairs Lake Minnetonka | Westonka Outdoor Living",
     metaDescription: "Shop durable HDPE Adirondack chairs near Lake Minnetonka for docks, patios, decks, fire pits, and lake homes.",
     eyebrow: "Classic Outdoor Seating",

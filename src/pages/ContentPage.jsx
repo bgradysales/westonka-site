@@ -38,6 +38,43 @@ function CheckItem({ children }) {
   );
 }
 
+function ProductGallery({ page, title }) {
+  if (!page.gallery || page.gallery.length === 0) {
+    return null;
+  }
+
+  return (
+    <section className="px-6 pt-20">
+      <div className="max-w-6xl mx-auto">
+        <div className="mb-8">
+          <p className="text-sm uppercase tracking-[0.25em] text-stone-500 mb-3">
+            Product Photos
+          </p>
+
+          <h2 className="text-4xl font-bold">
+            {title} Gallery
+          </h2>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-6">
+          {page.gallery.map((image, index) => (
+            <div
+              key={image}
+              className="rounded-3xl bg-white border border-stone-200 shadow-md overflow-hidden"
+            >
+              <img
+                src={image}
+                alt={`${title} product photo ${index + 1}`}
+                className="w-full h-[420px] object-contain bg-white p-6"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
 export default function ContentPage({
   page,
   navigateTo,
@@ -81,6 +118,8 @@ export default function ContentPage({
         secondaryLabel="Back to Home"
         navigateTo={navigateTo}
       />
+
+      <ProductGallery page={page} title={title} />
 
       <main className="py-20 px-6">
 
