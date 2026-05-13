@@ -11,15 +11,9 @@ function InfoCard({ icon, label, value, href }) {
       <CardContent className="p-5">
         <Icon name={icon} className="h-6 w-6 mb-3" />
 
-        <p className="text-sm text-stone-500 mb-1">
-          {label}
-        </p>
+        <p className="text-sm text-stone-500 mb-1">{label}</p>
 
-        {href ? (
-          <a href={href}>{content}</a>
-        ) : (
-          <p>{content}</p>
-        )}
+        {href ? <a href={href}>{content}</a> : <p>{content}</p>}
       </CardContent>
     </Card>
   );
@@ -87,57 +81,33 @@ export default function LocationSection() {
           </div>
         </div>
 
-        <Card className="rounded-3xl overflow-hidden shadow-lg border-stone-200 min-h-[520px]">
-          <div className="h-full flex flex-col bg-stone-100">
+        <div className="overflow-hidden rounded-3xl border border-stone-200 shadow-xl min-h-[520px] bg-stone-100">
+          <iframe
+            title="Westonka Outdoor Living Map"
+            src="https://www.google.com/maps?q=2361+Wilshire+Blvd+Mound+MN+55364&output=embed"
+            width="100%"
+            height="100%"
+            className="min-h-[520px] w-full"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
+        </div>
 
-            <div className="relative flex-1 min-h-[420px] overflow-hidden bg-gradient-to-br from-stone-200 via-stone-100 to-white">
+      </div>
 
-              <div className="absolute inset-0 flex items-center justify-center p-8 text-center">
-                <div className="rounded-3xl bg-white/90 p-8 shadow-xl border border-stone-200 max-w-md">
-
-                  <div className="mx-auto mb-5 flex h-16 w-16 items-center justify-center rounded-full bg-neutral-900 text-white">
-                    <Icon name="map-pin" className="h-8 w-8" />
-                  </div>
-
-                  <h3 className="text-2xl font-bold mb-2">
-                    Westonka Outdoor Living
-                  </h3>
-
-                  <p className="text-stone-600 mb-1">
-                    {businessInfo.address}
-                  </p>
-
-                  <p className="text-stone-500 text-sm">
-                    Serving the Lake Minnetonka area
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="p-5 bg-stone-50 flex items-center justify-between gap-4">
-              <div>
-                <p className="font-semibold">
-                  Serving the Lake Minnetonka area
-                </p>
-
-                <p className="text-sm text-stone-500">
-                  Visit us in Mound or contact us to schedule a consultation.
-                </p>
-              </div>
-
-              <a
-                href={directionsHref}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <Button className="rounded-full gap-2">
-                  <Icon name="navigation" className="h-4 w-4" />
-                  Directions
-                </Button>
-              </a>
-            </div>
-          </div>
-        </Card>
+      <div className="max-w-7xl mx-auto mt-6 flex justify-end">
+        <a
+          href={directionsHref}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button className="rounded-full gap-2">
+            <Icon name="navigation" className="h-4 w-4" />
+            Directions
+          </Button>
+        </a>
       </div>
     </section>
   );
