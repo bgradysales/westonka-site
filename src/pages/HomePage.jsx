@@ -243,6 +243,19 @@ export default function HomePage({ navigateTo }) {
       <SeoCardsSection navigateTo={navigateTo} />
 
       <LocationSection />
+      <div className="overflow-hidden rounded-[32px] border border-stone-200 shadow-xl">
+  <iframe
+    title="Westonka Outdoor Living Map"
+    src="https://www.google.com/maps?q=2361+Wilshire+Blvd+Mound+MN+55364&output=embed"
+    width="100%"
+    height="100%"
+    className="min-h-[620px] w-full"
+    style={{ border: 0 }}
+    allowFullScreen=""
+    loading="lazy"
+    referrerPolicy="no-referrer-when-downgrade"
+  />
+</div>
 
       <QuoteSection />
 
