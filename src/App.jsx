@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 
 import HomePage from "./pages/HomePage";
 import ContentPage from "./pages/ContentPage";
+import ColorOptionsPage from "./pages/ColorOptionsPage";
 import NotFoundPage from "./pages/NotFoundPage";
 
 import { seoPages } from "./data/seoPages";
@@ -108,7 +109,11 @@ export default function App() {
       );
     };
   }, []);
-
+if (currentPath === "/colors") {
+  return (
+    <ColorOptionsPage navigateTo={navigateTo} />
+  );
+}
   if (currentSeoPage) {
     return (
       <ContentPage

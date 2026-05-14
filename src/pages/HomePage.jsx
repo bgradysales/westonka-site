@@ -5,7 +5,6 @@ import Hero from "../components/Hero";
 
 import Footer from "../components/Footer";
 import LocationSection from "../components/LocationSection";
-import ColorOptions from "../components/ColorOptions";
 import QuoteSection from "../components/QuoteSection";
 import CollectionCard from "../components/CollectionCard";
 
@@ -242,7 +241,6 @@ export default function HomePage({ navigateTo }) {
 
 <WhyPolySection />
 
-<ColorOptions />
 
 <CollectionsSection navigateTo={navigateTo} />
 

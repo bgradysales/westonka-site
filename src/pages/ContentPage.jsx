@@ -175,6 +175,20 @@ export default function ContentPage({
                   <Button className="rounded-full w-full mb-3">
                     Open Quote Form
                   </Button>
+                  <a
+  href="/colors"
+  onClick={(event) => {
+    event.preventDefault();
+    navigateTo("/colors");
+  }}
+>
+  <Button
+    variant="outline"
+    className="rounded-full w-full mb-3"
+  >
+    View Color Options
+  </Button>
+</a>
                 </a>
 
                 <a
