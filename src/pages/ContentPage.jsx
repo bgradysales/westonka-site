@@ -33,7 +33,7 @@ function CheckItem({ children }) {
 }
 
 function ProductGallery({ page, title }) {
-  if (!page.gallery || page.gallery.length === 0) {
+  if (!page.products || page.products.length === 0) {
     return null;
   }
 
@@ -51,7 +51,7 @@ function ProductGallery({ page, title }) {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-          {page.gallery.map((image, index) => (
+          {page.products.map((product) => (
             <div
               key={image}
               className="rounded-3xl bg-white border border-stone-200 shadow-md overflow-hidden"
