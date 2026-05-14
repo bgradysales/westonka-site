@@ -6,6 +6,32 @@ export const productCollections = [
       "Outdoor dining sets near Lake Minnetonka built from durable HDPE poly lumber.",
     image:
       "/products/Dining-lifestyle-set-hero.png",
+      products: [
+  {
+    name: "Adirondack Dining Swivel Chair",
+    image: "/products/chairs/adirondack-poly-dining-swivel-chair.png",
+    msrp: 1050,
+    salePrice: 788,
+  },
+  {
+    name: "Adirondack Stationary Dining Chair",
+    image: "/products/chairs/adirondack-poly-stationary-dining-chair.png",
+    msrp: 618,
+    salePrice: 464,
+  },
+  {
+    name: "Bendel Stationary Dining Chair",
+    image: "/products/chairs/bendel-poly-stationary-dining-chair.png",
+    msrp: 700,
+    salePrice: 525,
+  },
+  {
+    name: "Bendel Dining Swivel Chair",
+    image: "/products/chairs/bendel-poly-swivel-dining-chair.png",
+    msrp: 1150,
+    salePrice: 863,
+  },
+],
     metaTitle: "Outdoor Dining Sets Minnesota | Westonka Outdoor Living",
     metaDescription:
       "Shop durable HDPE outdoor dining sets for Minnesota patios, decks, lake homes, and outdoor entertaining spaces.",
