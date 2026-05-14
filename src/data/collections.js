@@ -218,8 +218,21 @@ products: [
     description:
       "Comfortable outdoor gliders and benches built for Minnesota weather.",
     image:
-      "/products/Bench-lifestyle-hero.png",
-    metaTitle: "Outdoor Gliders Minnesota | Westonka Outdoor Living",
+  products: [
+  {
+    name: "5' Cascade Glider Bench w/ Console",
+    image: "/products/gliders/5ft-cascade-glider-poly-bench.png",
+    msrp: 1992.5,
+    salePrice: 1494,
+  },
+  {
+    name: "5' Adirondack Glider Bench w/ Console",
+    image: "/products/gliders/adirondack-poly-5ft-glider-console-bench.png",
+    msrp: 1985,
+    salePrice: 1489,
+  },
+],
+metaTitle: "Outdoor Gliders Minnesota | Westonka Outdoor Living",
     metaDescription:
       "Shop HDPE outdoor gliders and benches for Minnesota patios, porches, decks, lake homes, and outdoor seating areas.",
     eyebrow: "Relaxed Outdoor Seating",
