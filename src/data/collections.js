@@ -26,39 +26,88 @@ export const productCollections = [
     bullets: ["Standard and counter-height options", "Great for patios and decks", "Low-maintenance HDPE poly", "Built for outdoor entertaining"],
   },
  {
-  slug: "adirondack-chairs",
-  title: "Adirondack Chairs",
- image: "/adirondack-chair-1.png",
-gallery: [
-  "/adirondack-chair-1.png",
-  "/adirondack-chair-2.png",
-],
-  description:
-    "Premium HDPE Adirondack chairs designed for Minnesota lake homes, patios, docks, and fire pit spaces.",
+slug: "adirondack-chairs",
 
-    metaTitle: "Adirondack Chairs Lake Minnetonka | Westonka Outdoor Living",
-    metaDescription: "Shop durable HDPE Adirondack chairs near Lake Minnetonka for docks, patios, decks, fire pits, and lake homes.",
-    eyebrow: "Classic Outdoor Seating",
-    pageTitle: "Adirondack Chairs Near Lake Minnetonka",
-    pageDescription: "Relax outdoors with comfortable HDPE Adirondack chairs made for Minnesota weather, lake homes, docks, patios, and fire pit areas.",
-    sections: [
-      {
-        heading: "A Classic Chair for Lake Living",
-        body: "Adirondack chairs are a natural fit for Lake Minnetonka homes because they work almost anywhere: around a fire pit, on a dock, near the water, on a patio, or on a front porch.",
-      },
-      {
-        heading: "HDPE Comfort Without Wood Maintenance",
-        body: "Traditional wood Adirondack chairs can require ongoing staining, sealing, and seasonal upkeep. HDPE poly Adirondack chairs offer the classic outdoor look with a much easier maintenance routine.",
-      },
-      {
-        heading: "Built for Everyday Outdoor Relaxing",
-        body: "Whether you are furnishing a cabin, backyard, dock, or patio, Adirondack seating gives your outdoor space a relaxed and timeless feel.",
-      },
-    ],
-    bullets: ["Great for docks and fire pits", "Classic lake-home style", "Weather-resistant HDPE", "Comfortable relaxed seating"],
-  },
+title: "Adirondack Chairs",
+
+image: "/products/chairs/adirondack-urban-poly-chair.png",
+
+gallery: [
+  "/products/chairs/adirondack-urban-poly-chair.png",
+  "/products/chairs/poly-folding-adirondack-chair.png",
+
+  "/products/chairs/adirondack-poly-dining-swivel-chair.png",
+  "/products/chairs/adirondack-poly-glider-chair.png",
+  "/products/chairs/adirondack-poly-rocker-chair.png",
+  "/products/chairs/adirondack-poly-stationary-dining-chair.png",
+  "/products/chairs/adirondack-poly-swivel-glider-chair.png",
+
+  "/products/chairs/bendel-poly-glider-chair.png",
+  "/products/chairs/bendel-poly-rocking-chair.png",
+  "/products/chairs/bendel-poly-stationary-dining-chair.png",
+  "/products/chairs/bendel-poly-swivel-dining-chair.png",
+  "/products/chairs/bendel-swivel-glider-lounge-chair.png",
+
+  "/products/chairs/cascade-poly-glider-chair.png",
+  "/products/chairs/cascade-poly-swivel-glider-chair.png",
+],
+
+description:
+  "Premium HDPE Adirondack chairs, gliders, rocking chairs, swivel chairs, and outdoor seating designed for Minnesota lake homes, patios, docks, and fire pit spaces.",
+
+metaTitle:
+  "Adirondack Chairs Lake Minnetonka | Westonka Outdoor Living",
+
+metaDescription:
+  "Shop durable HDPE Adirondack chairs, rocking chairs, gliders, swivel chairs, and outdoor seating near Lake Minnetonka for docks, patios, decks, fire pits, and lake homes.",
+
+eyebrow: "Classic Outdoor Seating",
+
+pageTitle:
+  "Adirondack Chairs Near Lake Minnetonka",
+
+pageDescription:
+  "Relax outdoors with comfortable HDPE Adirondack chairs, gliders, swivel chairs, and outdoor seating made for Minnesota weather, lake homes, docks, patios, and fire pit areas.",
+
+sections: [
   {
-    slug: "/counter-height-patio-furniture",
+    heading: "A Classic Chair for Lake Living",
+    body:
+      "Adirondack chairs are a natural fit for Lake Minnetonka homes because they work almost anywhere: around a fire pit, on a dock, near the water, on a patio, or on a front porch.",
+  },
+
+  {
+    heading: "HDPE Comfort Without Wood Maintenance",
+    body:
+      "Traditional wood Adirondack chairs can require ongoing staining, sealing, and seasonal upkeep. HDPE poly Adirondack chairs offer the classic outdoor look with a much easier maintenance routine.",
+  },
+
+  {
+    heading: "More Than Just Adirondack Chairs",
+    body:
+      "This collection also includes gliders, swivel gliders, rocking chairs, lounge chairs, and upright dining-height seating so you can create a complete outdoor living space with matching styles.",
+  },
+
+  {
+    heading: "Built for Everyday Outdoor Relaxing",
+    body:
+      "Whether you are furnishing a cabin, backyard, dock, or patio, Adirondack seating gives your outdoor space a relaxed and timeless feel.",
+  },
+],
+
+bullets: [
+  "Adirondack chairs",
+  "Rocking chairs",
+  "Glider chairs",
+  "Swivel gliders",
+  "Dining-height chairs",
+  "HDPE weather-resistant construction",
+  "Perfect for docks and fire pits",
+],
+},
+
+{
+  slug: "/counter-height-patio-furniture",
     title: "Bar & Counter Sets",
     description: "Counter height outdoor furniture ideal for decks, docks, and patios.",
     image: "https://dutchboypoly.com/wp-content/uploads/2023/05/1-4-scaled-e1685976284555.jpg",
