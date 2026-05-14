@@ -41,7 +41,7 @@ export const productCollections = [
   {
     slug: "/adirondack-chairs",
     title: "Adirondack Chairs",
-    image: "/products/chairs/urban-poly-conversation-set.png",
+   image: "/products/chairs/adirondack-urban-poly-chair.png",
 
     gallery: [
       "/products/chairs/urban-poly-conversation-set.png",
