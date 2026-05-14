@@ -5,7 +5,7 @@ export const productCollections = [
     description:
       "Outdoor dining sets near Lake Minnetonka built from durable HDPE poly lumber.",
     image:
-      "https://dutchboypoly.com/wp-content/uploads/2023/07/Stone-on-Slate-44x72-Counter-Table-Set-6-Swivel-Rollback-Chairs-2-scaled.jpg",
+      "/products/Dining-lifestyle-set-hero.png",
     metaTitle: "Outdoor Dining Sets Minnesota | Westonka Outdoor Living",
     metaDescription:
       "Shop durable HDPE outdoor dining sets for Minnesota patios, decks, lake homes, and outdoor entertaining spaces.",
