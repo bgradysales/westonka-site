@@ -251,14 +251,83 @@ products: [
     ],
   },
 
-  {
-    slug: "/fire-pit-furniture-minnesota",
-    title: "Fire Pit & Conversation Seating",
-    description:
-      "Fire pit seating and outdoor lounge furniture for patios and lakefront homes.",
-    image:
-      "https://dutchboypoly.com/wp-content/uploads/2026/04/DBP-AGBCHC5FT-5ft-Adirondack-Counter-Glider-Console-Coastal-Gray-on-Black-e1775844809332-1-600x500.jpg",
-    metaTitle: "Fire Pit Furniture Minnesota | Westonka Outdoor Living",
+{
+  slug: "/fire-pit-furniture-minnesota",
+
+  title: "Fire Pit & Conversation Seating",
+
+  description:
+    "Fire pit seating and outdoor lounge furniture for patios and lakefront homes.",
+
+  image:
+    "https://dutchboypoly.com/wp-content/uploads/2026/04/DBP-AGBCHC5FT-5ft-Adirondack-Counter-Glider-Console-Coastal-Gray-on-Black-e1775844809332-1-600x500.jpg",
+
+  products: [
+    {
+      name: "Urban Leisure Lounge Chair",
+      image: "/products/chairs/adirondack-urban-poly-chair.png",
+      msrp: 665,
+      salePrice: 499,
+    },
+
+    {
+      name: "Adirondack Glider Lounge Chair",
+      image: "/products/chairs/adirondack-poly-glider-chair.png",
+      msrp: 830,
+      salePrice: 623,
+    },
+
+    {
+      name: "Adirondack Swivel Glider Lounge Chair",
+      image: "/products/chairs/adirondack-poly-swivel-glider-chair.png",
+      msrp: 1155,
+      salePrice: 866,
+    },
+
+    {
+      name: "Bendel Glider Lounge Chair",
+      image: "/products/chairs/bendel-poly-glider-chair.png",
+      msrp: 953,
+      salePrice: 715,
+    },
+
+    {
+      name: "Bendel Swivel Glider Lounge Chair",
+      image: "/products/chairs/bendel-swivel-glider-lounge-chair.png",
+      msrp: 1285,
+      salePrice: 964,
+    },
+
+    {
+      name: "Cascade Glider Lounge Chair",
+      image: "/products/chairs/cascade-poly-glider-chair.png",
+      msrp: 870,
+      salePrice: 653,
+    },
+
+    {
+      name: "Cascade Swivel Glider Lounge Chair",
+      image: "/products/chairs/cascade-poly-swivel-glider-chair.png",
+      msrp: 1193,
+      salePrice: 895,
+    },
+
+    {
+      name: "Adirondack Lounge Rocker Chair",
+      image: "/products/chairs/adirondack-poly-rocker-chair.png",
+      msrp: 665,
+      salePrice: 499,
+    },
+
+    {
+      name: "Bendel Lounge Rocker Chair",
+      image: "/products/chairs/bendel-poly-rocking-chair.png",
+      msrp: 788,
+      salePrice: 591,
+    },
+  ],
+
+  metaTitle: "Fire Pit Furniture Minnesota | Westonka Outdoor Living",
     metaDescription:
       "Shop durable HDPE fire pit furniture and conversation seating for Minnesota patios, decks, lake homes, and backyard gathering spaces.",
     eyebrow: "Conversation Seating",
