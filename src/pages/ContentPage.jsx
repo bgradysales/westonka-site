@@ -165,17 +165,19 @@ export default function ContentPage({
                   ))}
                 </ul>
 
-                <a
-                  href="/#quote"
-                  onClick={(event) => {
-                    event.preventDefault();
-                    navigateTo("/#quote");
-                  }}
-                >
-                  <Button className="rounded-full w-full mb-3">
-                    Open Quote Form
-                  </Button>
-                  <a
+<a
+  href="/#quote"
+  onClick={(event) => {
+    event.preventDefault();
+    navigateTo("/#quote");
+  }}
+>
+  <Button className="rounded-full w-full mb-3">
+    Open Quote Form
+  </Button>
+</a>
+
+<a
   href="/colors"
   onClick={(event) => {
     event.preventDefault();
