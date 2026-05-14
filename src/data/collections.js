@@ -259,8 +259,7 @@ products: [
   description:
     "Fire pit seating and outdoor lounge furniture for patios and lakefront homes.",
 
-  image:
-    "https://dutchboypoly.com/wp-content/uploads/2026/04/DBP-AGBCHC5FT-5ft-Adirondack-Counter-Glider-Console-Coastal-Gray-on-Black-e1775844809332-1-600x500.jpg",
+  image: "/products/fire-pit-bendel-hero.png",
 
   products: [
     {
