@@ -51,34 +51,39 @@ function ProductGallery({ page, title }) {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6">
-{page.products.map((product) => (
-  <div
-    key={product.name}
-    className="rounded-3xl bg-white border border-stone-200 shadow-md overflow-hidden"
-  >
-    <img
-      src={product.image}
-      alt={product.name}
-      className="w-full h-[420px] object-contain bg-white p-6"
-    />
+          {page.products.map((product) => (
+            <div
+              key={product.name}
+              className="rounded-3xl bg-white border border-stone-200 shadow-md overflow-hidden"
+            >
+              <img
+                src={product.image}
+                alt={product.name}
+                className="w-full h-[420px] object-contain bg-white p-6"
+              />
 
-    <div className="p-6 border-t border-stone-100">
-      <h3 className="text-2xl font-bold text-stone-900">
-        {product.name}
-      </h3>
+              <div className="p-6 border-t border-stone-100">
+                <h3 className="text-2xl font-bold text-stone-900">
+                  {product.name}
+                </h3>
 
-      <div className="mt-3 flex items-center gap-3">
-        <span className="text-stone-400 line-through text-lg">
-          MSRP ${product.msrp}
-        </span>
+                <div className="mt-3 flex items-center gap-3">
+                  <span className="text-stone-400 line-through text-lg">
+                    MSRP ${product.msrp}
+                  </span>
 
-        <span className="text-2xl font-bold text-emerald-700">
-          ${product.salePrice}
-        </span>
+                  <span className="text-2xl font-bold text-emerald-700">
+                    ${product.salePrice}
+                  </span>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  </div>
-))}
+    </section>
+  );
+}
 
 export default function ContentPage({
   page,
