@@ -153,20 +153,38 @@ export default function ContentPage({
                   </Button>
                 </a>
 
-                <a
-                  href="/colors"
-                  onClick={(event) => {
-                    event.preventDefault();
-                    navigateTo("/colors");
-                  }}
-                >
-                  <Button
-                    variant="outline"
-                    className="rounded-full w-full mb-3"
-                  >
-                    View Color Options
-                  </Button>
-                </a>
+<a
+  href="/colors"
+  onClick={(event) => {
+    event.preventDefault();
+    navigateTo("/colors");
+  }}
+  className="block mb-3 rounded-2xl border border-stone-300 bg-stone-50 p-4 hover:bg-white transition"
+>
+  <div className="flex items-center gap-2 mb-3">
+    {[
+      "#111111",
+      "#8B6F4E",
+      "#E7E1D6",
+      "#1E88A8",
+      "#C0392B",
+    ].map((color) => (
+      <span
+        key={color}
+        className="h-7 w-7 rounded-full border border-stone-300 shadow-sm"
+        style={{ backgroundColor: color }}
+      />
+    ))}
+  </div>
+
+  <p className="font-bold text-stone-900">
+    View Color Options
+  </p>
+
+  <p className="text-sm text-stone-600 mt-1">
+    Browse solid colors, woodgrain finishes, and popular two-tone combinations.
+  </p>
+</a>
 
                 <a href={directionsHref} target="_blank" rel="noreferrer">
                   <Button
