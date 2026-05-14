@@ -41,12 +41,12 @@ export const productCollections = [
   {
     slug: "/adirondack-chairs",
     title: "Adirondack Chairs",
-   image: "/products/chairs/urban-poly-conversation-set.png",
+ image: "/chair-hero.png",
 
-    gallery: [
-      "/products/chairs/urban-poly-conversation-set.png",
-      "/products/chairs/adirondack-urban-poly-chair.png",
-      "/products/chairs/poly-folding-adirondack-chair.png",
+gallery: [
+  "/chair-hero.png",
+  "/products/chairs/adirondack-urban-poly-chair.png",
+  "/products/chairs/poly-folding-adirondack-chair.png",
       "/products/chairs/adirondack-poly-dining-swivel-chair.png",
       "/products/chairs/adirondack-poly-glider-chair.png",
       "/products/chairs/adirondack-poly-rocker-chair.png",
