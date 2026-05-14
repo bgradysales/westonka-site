@@ -44,7 +44,6 @@ export const productCollections = [
  image: "/chair-hero.png",
 
 gallery: [
-  "/chair-hero.png",
   "/products/chairs/adirondack-urban-poly-chair.png",
   "/products/chairs/poly-folding-adirondack-chair.png",
       "/products/chairs/adirondack-poly-dining-swivel-chair.png",
