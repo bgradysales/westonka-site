@@ -218,7 +218,7 @@ products: [
     description:
       "Comfortable outdoor gliders and benches built for Minnesota weather.",
     image:
-      "https://dutchboypoly.com/wp-content/uploads/2026/04/DBP-AGB4FT-4ft-Adirondack-Glider-Coastal-Gray-on-Black-e1775845125524-1-600x500.jpg",
+      "/products/Bench-lifestyle-hero.png",
     metaTitle: "Outdoor Gliders Minnesota | Westonka Outdoor Living",
     metaDescription:
       "Shop HDPE outdoor gliders and benches for Minnesota patios, porches, decks, lake homes, and outdoor seating areas.",
