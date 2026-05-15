@@ -322,6 +322,63 @@ products: [
       "Counter height outdoor furniture ideal for decks, docks, and patios.",
     image:
       "https://dutchboypoly.com/wp-content/uploads/2023/05/1-4-scaled-e1685976284555.jpg",
+      products: [
+  {
+    name: "Adirondack Counter Glider Stool",
+    image:
+      "/products/bar/adirondack-poly-counter-glider-stool.png",
+    msrp: 953,
+    salePrice: 714,
+  },
+
+  {
+    name: "Adirondack Counter Settee",
+    image:
+      "/products/bar/adirondack-poly-counter-settee-stools.png",
+    msrp: 1635,
+    salePrice: 1226,
+  },
+
+  {
+    name: "Adirondack Counter Swivel Stool",
+    image:
+      "/products/bar/adirondack-poly-counter-swivel-stool.png",
+    msrp: 1128,
+    salePrice: 846,
+  },
+
+  {
+    name: "Adirondack Stationary Counter Stool",
+    image:
+      "/products/bar/adirondack-poly-stationary-counter-stool.png",
+    msrp: 670,
+    salePrice: 503,
+  },
+
+  {
+    name: "Bayou Counter Swivel Stool",
+    image:
+      "/products/bar/bayou-poly-adirondack-counter-swivel-stool.png",
+    msrp: 1143,
+    salePrice: 857,
+  },
+
+  {
+    name: "Bendel Counter Swivel Stool",
+    image:
+      "/products/bar/bendel-poly-counter-swivel-stool.png",
+    msrp: 1240,
+    salePrice: 930,
+  },
+
+  {
+    name: "Cascade Stationary Counter Stool",
+    image:
+      "/products/bar/cascade-poly-counter-stool.png",
+    msrp: 715,
+    salePrice: 536,
+  },
+],
     metaTitle: "Counter Height Patio Furniture Minnesota | Westonka Outdoor Living",
     metaDescription:
       "Shop counter height and bar height HDPE patio furniture for Minnesota decks, lake homes, patios, and outdoor entertaining spaces.",
