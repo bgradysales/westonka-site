@@ -414,6 +414,21 @@ products: [
     msrp: 715,
     salePrice: 536,
   },
+
+  {
+  name: "Topical Counter Table 48",
+  image: "/products/tables/topical-counter-table-48-round.png",
+  msrp: 1798,
+  salePrice: 1348,
+},
+
+{
+  name: "Round Side Table - Counter Height",
+  image: "/products/tables/round-poly-counter-side-table.png",
+  msrp: 310,
+  salePrice: 233,
+},
+
 ],
     metaTitle: "Counter Height Patio Furniture Minnesota | Westonka Outdoor Living",
     metaDescription:
