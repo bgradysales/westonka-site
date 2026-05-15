@@ -200,6 +200,122 @@ products: [
   },
 
   {
+  slug: "/outdoor-tables-minnesota",
+  title: "Outdoor Tables",
+  description:
+    "HDPE poly outdoor dining tables, coffee tables, side tables, accent tables, and counter-height tables for Minnesota patios, decks, docks, and lake homes.",
+  image: "/products/tables/bayou-poly-dining-table-4275.png",
+
+  products: [
+    {
+      name: "Bayou Dining Table 42x42",
+      image: "/products/tables/bayou-poly-dining-table-42.png",
+      msrp: 1415,
+      salePrice: 1061,
+    },
+    {
+      name: "Bayou Dining Table 42x75",
+      image: "/products/tables/bayou-poly-dining-table-4275.png",
+      msrp: 1928,
+      salePrice: 1446,
+    },
+    {
+      name: "Luxury Coffee Table",
+      image: "/products/tables/luxury-poly-coffee-table.png",
+      msrp: 595,
+      salePrice: 446,
+    },
+    {
+      name: "Luxury Side Table",
+      image: "/products/tables/luxury-poly-side-table.png",
+      msrp: 338,
+      salePrice: 253,
+    },
+    {
+      name: "Accent Table",
+      image: "/products/tables/poly-accent-table.png",
+      msrp: 345,
+      salePrice: 259,
+    },
+    {
+      name: "Elliptical Coffee Table",
+      image: "/products/tables/poly-elliptical-coffee-table.png",
+      msrp: 440,
+      salePrice: 330,
+    },
+    {
+      name: "Round Side Table - Counter Height",
+      image: "/products/tables/round-poly-counter-side-table.png",
+      msrp: 310,
+      salePrice: 233,
+    },
+    {
+      name: "Round Side Table",
+      image: "/products/tables/round-poly-side-table.png",
+      msrp: 265,
+      salePrice: 199,
+    },
+    {
+      name: "Topical Counter Table 48",
+      image: "/products/tables/topical-counter-table-48-round.png",
+      msrp: 1798,
+      salePrice: 1348,
+    },
+    {
+      name: "Topical Dining Table 54",
+      image: "/products/tables/topical-dining-table-54-round.png",
+      msrp: 1888,
+      salePrice: 1416,
+    },
+    {
+      name: "Traditional Dining Table 44x72",
+      image: "/products/tables/traditional-poly-dining-table-4472.png",
+      msrp: 2060,
+      salePrice: 1545,
+    },
+    {
+      name: "Traditional Dining Table 44x44",
+      image: "/products/tables/traditonal-poly-dining-table-44.png",
+      msrp: 1283,
+      salePrice: 962,
+    },
+  ],
+
+  metaTitle: "Outdoor Poly Tables Minnesota | Westonka Outdoor Living",
+  metaDescription:
+    "Shop HDPE poly outdoor tables in Minnesota including dining tables, coffee tables, side tables, accent tables, and counter-height tables for patios, decks, docks, and lake homes.",
+  eyebrow: "Outdoor Poly Tables",
+  pageTitle: "Outdoor Poly Tables for Minnesota Patios & Lake Homes",
+  pageDescription:
+    "Complete your outdoor space with durable HDPE poly dining tables, coffee tables, side tables, and accent tables built for Minnesota weather.",
+  sections: [
+    {
+      heading: "Outdoor Tables Built for Minnesota Weather",
+      body:
+        "Our HDPE poly tables are designed for patios, decks, docks, porches, and lake homes where durability and low maintenance matter.",
+    },
+    {
+      heading: "Dining, Coffee, Side, and Accent Tables",
+      body:
+        "Choose from full-size dining tables, round tables, coffee tables, side tables, counter-height tables, and accent tables to complete your outdoor furniture layout.",
+    },
+    {
+      heading: "Easy to Coordinate With Seating",
+      body:
+        "Poly tables pair well with Adirondack chairs, dining chairs, gliders, benches, and fire pit seating, with color combinations available to match your space.",
+    },
+  ],
+  bullets: [
+    "Dining tables",
+    "Coffee tables",
+    "Side tables",
+    "Accent tables",
+    "Counter-height tables",
+    "HDPE poly construction",
+    "Built for Minnesota weather",
+  ],
+},
+  {
     slug: "/counter-height-patio-furniture",
     title: "Bar & Counter Sets",
     description:
