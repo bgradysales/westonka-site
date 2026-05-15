@@ -155,6 +155,16 @@ export default function Header({ navigateTo }) {
         Why HDPE
       </a>
 
+<a
+  href="/#built-better"
+  onClick={(event) => {
+    event.preventDefault();
+    goTo("/#built-better");
+  }}
+>
+  Built Better
+</a>
+
       <a
         href="/#location"
         onClick={(event) => {
