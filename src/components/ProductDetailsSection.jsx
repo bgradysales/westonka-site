@@ -37,8 +37,7 @@ const details = [
 
 export default function ProductDetailsSection() {
   return (
-    <section className="bg-white px-6 py-20">
-      <div className="mx-auto max-w-7xl">
+<section id="built-better" className="bg-white px-6 py-20">      <div className="mx-auto max-w-7xl">
         <div className="mb-10 max-w-3xl">
           <p className="mb-3 text-sm uppercase tracking-[0.25em] text-stone-500">
             Built Better
