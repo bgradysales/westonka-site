@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 import LocationSection from "../components/LocationSection";
 import QuoteSection from "../components/QuoteSection";
 import CollectionCard from "../components/CollectionCard";
-
+import ProductDetailsSection from "../components/ProductDetailsSection";
 import Icon from "../components/Icon";
 import { Card, CardContent } from "../components/Card";
 import Button from "../components/Button";
@@ -241,8 +241,9 @@ export default function HomePage({ navigateTo }) {
 
 <WhyPolySection />
 
+<ProductDetailsSection />
 
-<CollectionsSection navigateTo={navigateTo} />
+<CollectionsSection navigateTo={navigateTo} /><CollectionsSection navigateTo={navigateTo} />
 
       <SeoCardsSection navigateTo={navigateTo} />
 
