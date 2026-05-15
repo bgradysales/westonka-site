@@ -204,7 +204,7 @@ products: [
   title: "Outdoor Tables",
   description:
     "HDPE poly outdoor dining tables, coffee tables, side tables, accent tables, and counter-height tables for Minnesota patios, decks, docks, and lake homes.",
-  image: "/products/tables/bayou-poly-dining-table-4275.png",
+  image: "/products/Tables-hero.png",
 
   products: [
     {
