@@ -241,9 +241,9 @@ export default function HomePage({ navigateTo }) {
 
 <WhyPolySection />
 
-<ProductDetailsSection />
-
 <CollectionsSection navigateTo={navigateTo} /><CollectionsSection navigateTo={navigateTo} />
+
+<ProductDetailsSection />
 
       <SeoCardsSection navigateTo={navigateTo} />
 
