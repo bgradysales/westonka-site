@@ -35,14 +35,6 @@ export const productCollections = [
 
 {
   name: "Bayou Dining Table 42x42",
-  image:
-    "/products/tables/bayou-dining-table-42x42.png",
-  msrp: 1415,
-  salePrice: 1061,
-},
-
-{
-  name: "Bayou Dining Table 42x42",
   image: "/products/tables/bayou-poly-dining-table-42.png",
   msrp: 1415,
   salePrice: 1061,
