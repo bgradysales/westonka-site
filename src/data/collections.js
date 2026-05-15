@@ -587,6 +587,31 @@ metaTitle: "Outdoor Gliders Minnesota | Westonka Outdoor Living",
       msrp: 788,
       salePrice: 591,
     },
+
+      {
+      name: "Luxury Side Table",
+      image: "/products/tables/luxury-poly-side-table.png",
+      msrp: 338,
+      salePrice: 253,
+    },
+        {
+      name: "Accent Table",
+      image: "/products/tables/poly-accent-table.png",
+      msrp: 345,
+      salePrice: 259,
+    },
+        {
+      name: "Elliptical Coffee Table",
+      image: "/products/tables/poly-elliptical-coffee-table.png",
+      msrp: 440,
+      salePrice: 330,
+    },
+        {
+      name: "Round Side Table",
+      image: "/products/tables/round-poly-side-table.png",
+      msrp: 265,
+      salePrice: 199,
+    },
   ],
 
   metaTitle: "Fire Pit Furniture Minnesota | Westonka Outdoor Living",
