@@ -6,6 +6,7 @@ export const productCollections = [
       "Outdoor dining sets near Lake Minnetonka built from durable HDPE poly lumber.",
     image:
       "/products/Dining-lifestyle-set-hero.png",
+      
       products: [
   {
     name: "Adirondack Dining Swivel Chair",
