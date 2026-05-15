@@ -31,6 +31,46 @@ export const productCollections = [
     msrp: 1150,
     salePrice: 863,
   },
+
+{
+  name: "Bayou Dining Table 42x42",
+  image:
+    "/products/tables/bayou-dining-table-42x42.png",
+  msrp: 1415,
+  salePrice: 1061,
+},
+
+{
+  name: "Bayou Dining Table 42x75",
+  image:
+    "/products/tables/bayou-dining-table-42x75.png",
+  msrp: 1928,
+  salePrice: 1446,
+},
+
+{
+  name: "Topical Dining Table 54",
+  image:
+    "/products/tables/topical-dining-table-54.png",
+  msrp: 1888,
+  salePrice: 1416,
+},
+
+{
+  name: "Traditional Dining Table 44x72",
+  image:
+    "/products/tables/traditional-dining-table-44x72.png",
+  msrp: 2060,
+  salePrice: 1545,
+},
+
+{
+  name: "Traditional Dining Table 44x44",
+  image:
+    "/products/tables/traditional-dining-table-44x44.png",
+  msrp: 1283,
+  salePrice: 962,
+},
 ],
     metaTitle: "Outdoor Dining Sets Minnesota | Westonka Outdoor Living",
     metaDescription:
