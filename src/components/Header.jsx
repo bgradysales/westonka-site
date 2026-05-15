@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import { productCollections } from "../data/collections";
 import Button from "./Button";
 import { businessInfo } from "../data/businessInfo";
 
@@ -101,77 +101,88 @@ export default function Header({ navigateTo }) {
         </button>
       </div>
 
-      {menuOpen && (
-        <div className="lg:hidden border-t border-stone-200 bg-white px-6 py-5 shadow-lg">
-          <nav className="flex flex-col gap-4 text-base font-semibold text-stone-800">
+ {menuOpen && (
+  <div className="lg:hidden border-t border-stone-200 bg-white px-6 py-5 shadow-lg">
+    <nav className="flex flex-col gap-4 text-base font-semibold text-stone-800">
+      <a
+        href="/"
+        onClick={(event) => {
+          event.preventDefault();
+          goTo("/");
+        }}
+      >
+        Home
+      </a>
+
+      <div className="border-t border-stone-200 pt-4">
+        <p className="mb-3 text-xs uppercase tracking-[0.25em] text-stone-500">
+          Collections
+        </p>
+
+        <div className="flex flex-col gap-3">
+          {productCollections.map((collection) => (
             <a
-              href="/"
+              key={collection.slug}
+              href={collection.slug}
               onClick={(event) => {
                 event.preventDefault();
-                goTo("/");
+                goTo(collection.slug);
               }}
             >
-              Home
+              {collection.title}
             </a>
-
-            <a
-              href="/#collections"
-              onClick={(event) => {
-                event.preventDefault();
-                goTo("/#collections");
-              }}
-            >
-              Outdoor Furniture
-            </a>
-
-            <a
-              href="/colors"
-              onClick={(event) => {
-                event.preventDefault();
-                goTo("/colors");
-              }}
-            >
-              Color Options
-            </a>
-
-            <a
-              href="/#why-poly"
-              onClick={(event) => {
-                event.preventDefault();
-                goTo("/#why-poly");
-              }}
-            >
-              Why HDPE
-            </a>
-
-            <a
-              href="/#location"
-              onClick={(event) => {
-                event.preventDefault();
-                goTo("/#location");
-              }}
-            >
-              Location
-            </a>
-
-            <a
-              href="/#quote"
-              onClick={(event) => {
-                event.preventDefault();
-                goTo("/#quote");
-              }}
-            >
-              Request Quote
-            </a>
-
-            <a href={businessInfo.phoneHref}>
-              <Button className="rounded-full w-full mt-2">
-                Call Now
-              </Button>
-            </a>
-          </nav>
+          ))}
         </div>
-      )}
+      </div>
+
+      <a
+        href="/colors"
+        onClick={(event) => {
+          event.preventDefault();
+          goTo("/colors");
+        }}
+      >
+        Color Options
+      </a>
+
+      <a
+        href="/#why-poly"
+        onClick={(event) => {
+          event.preventDefault();
+          goTo("/#why-poly");
+        }}
+      >
+        Why HDPE
+      </a>
+
+      <a
+        href="/#location"
+        onClick={(event) => {
+          event.preventDefault();
+          goTo("/#location");
+        }}
+      >
+        Location
+      </a>
+
+      <a
+        href="/#quote"
+        onClick={(event) => {
+          event.preventDefault();
+          goTo("/#quote");
+        }}
+      >
+        Request Quote
+      </a>
+
+      <a href={businessInfo.phoneHref}>
+        <Button className="rounded-full w-full mt-2">
+          Call Now
+        </Button>
+      </a>
+    </nav>
+  </div>
+)}
     </header>
   );
 }
