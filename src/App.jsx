@@ -4,7 +4,7 @@ import HomePage from "./pages/HomePage";
 import ContentPage from "./pages/ContentPage";
 import ColorOptionsPage from "./pages/ColorOptionsPage";
 import NotFoundPage from "./pages/NotFoundPage";
-
+import InventoryPage from "./pages/InventoryPage";
 import { seoPages } from "./data/seoPages";
 import { productCollections } from "./data/collections";
 
@@ -109,10 +109,12 @@ export default function App() {
       );
     };
   }, []);
+if (currentPath === "/inventory") {
+  return <InventoryPage navigateTo={navigateTo} />;
+}
+
 if (currentPath === "/colors") {
-  return (
-    <ColorOptionsPage navigateTo={navigateTo} />
-  );
+  return <ColorOptionsPage navigateTo={navigateTo} />;
 }
   if (currentSeoPage) {
     return (

@@ -25,10 +25,20 @@ export default function OpeningInventorySection() {
           </h2>
 
           <p className="text-lg text-stone-600 leading-relaxed">
-            Westonka Outdoor Living is currently preparing to receive our opening inventory
-            of premium HDPE outdoor furniture for Minnesota lake homes, patios,
-            docks, decks, and fire pit spaces.
+            Westonka Outdoor Living is currently preparing to receive our
+            opening inventory of premium HDPE outdoor furniture for Minnesota
+            lake homes, patios, docks, decks, and fire pit spaces.
           </p>
+
+          <button
+            onClick={() => {
+              window.history.pushState({}, "", "/inventory");
+              window.dispatchEvent(new PopStateEvent("popstate"));
+            }}
+            className="mt-8 rounded-full bg-neutral-900 px-7 py-4 text-lg font-semibold text-white transition hover:bg-neutral-700"
+          >
+            View Opening Inventory
+          </button>
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
