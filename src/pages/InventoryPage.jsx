@@ -31,17 +31,28 @@ export default function InventoryPage({ navigateTo }) {
             Minnesota patios, lake homes, docks, dining spaces, and fire pit
             seating areas.
           </p>
+
+          <p className="mt-5 max-w-3xl text-lg font-semibold text-red-700">
+            Opening inventory is already starting to sell before arrival.
+            Contact us early if you want to reserve a specific color or piece.
+          </p>
         </div>
       </section>
 
       <section className="px-6 pb-20">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-            {openingInventory.map((item) => (
+            {openingInventory.map((item, index) => (
               <div
                 key={`${item.sku}-${item.finish}`}
                 className="rounded-3xl border border-stone-200 bg-white p-6 shadow-sm"
               >
+                {index < 3 && (
+                  <div className="mb-4 inline-flex rounded-full bg-red-100 px-4 py-2 text-sm font-bold text-red-700">
+                    Sold from Opening Inventory
+                  </div>
+                )}
+
                 <p className="mb-2 text-xs uppercase tracking-[0.2em] text-stone-500">
                   {item.sku}
                 </p>
