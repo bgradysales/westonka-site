@@ -2,7 +2,7 @@ import { useEffect } from "react";
 
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-
+import OpeningInventorySection from "../components/OpeningInventorySection";
 import Footer from "../components/Footer";
 import LocationSection from "../components/LocationSection";
 import QuoteSection from "../components/QuoteSection";
@@ -238,6 +238,8 @@ export default function HomePage({ navigateTo }) {
         secondaryLabel="Get a Quote"
         navigateTo={navigateTo}
       />
+
+      <OpeningInventorySection />
 
 <WhyPolySection />
 
