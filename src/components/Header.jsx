@@ -104,17 +104,27 @@ export default function Header({ navigateTo }) {
  {menuOpen && (
   <div className="lg:hidden border-t border-stone-200 bg-white px-6 py-5 shadow-lg">
     <nav className="flex flex-col gap-4 text-base font-semibold text-stone-800">
-      <a
-        href="/"
-        onClick={(event) => {
-          event.preventDefault();
-          goTo("/");
-        }}
-      >
-        Home
-      </a>
+<a
+  href="/"
+  onClick={(event) => {
+    event.preventDefault();
+    goTo("/");
+  }}
+>
+  Home
+</a>
 
-      <div className="border-t border-stone-200 pt-4">
+<a
+  href="/inventory"
+  onClick={(event) => {
+    event.preventDefault();
+    goTo("/inventory");
+  }}
+>
+  Opening Inventory
+</a>
+
+<div className="border-t border-stone-200 pt-4">
         <p className="mb-3 text-xs uppercase tracking-[0.25em] text-stone-500">
           Collections
         </p>
