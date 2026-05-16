@@ -25,7 +25,7 @@ export default function OpeningInventorySection() {
           </h2>
 
           <p className="text-lg text-stone-600 leading-relaxed">
-            Westonka Outdoor Living is currently preparing our opening inventory
+            Westonka Outdoor Living is currently preparing to receive our opening inventory
             of premium HDPE outdoor furniture for Minnesota lake homes, patios,
             docks, decks, and fire pit spaces.
           </p>
