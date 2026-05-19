@@ -467,7 +467,7 @@ products: [
     title: "Gliders & Benches",
     description:
       "Comfortable outdoor gliders and benches built for Minnesota weather.",
-    image:"/products/Bench-lifestyle-hero.png",
+    image:"/products/Bench-glider-lifestyle-hero.png",
   products: [
   {
     name: "5' Cascade Glider Bench w/ Console",
