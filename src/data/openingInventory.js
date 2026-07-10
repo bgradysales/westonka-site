@@ -31,7 +31,7 @@ export const openingInventory = [
     quantity: 4,
     finish: "Brazilian on Black",
     image:
-      "/products/inventory/bayou-adirondack-swivel-counter-chair-brazilian-black.jpg",
+      "/products/inventory/bayou-counter-swivel-chair-brazilian-black.jpg",
   },
   {
     name: "Bayou Counter Table 42x42",
@@ -47,7 +47,7 @@ export const openingInventory = [
     quantity: 4,
     finish: "Coastal on Black",
     image:
-      "/products/inventory/bayou-adirondack-swivel-counter-chair-coastal-black.jpg",
+      "/products/inventory/bayou-counter-swivel-chair-coastal-black.jpg",
   },
   {
     name: "Urban Leisure Chair",
