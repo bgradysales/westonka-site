@@ -31,7 +31,7 @@ export default function Header({ navigateTo }) {
           </p>
         </a>
 
-        <nav className="hidden lg:flex gap-7 text-sm font-medium text-stone-700">
+        <nav className="hidden">
           <a
             href="/#collections"
             onClick={(event) => {
@@ -83,7 +83,7 @@ export default function Header({ navigateTo }) {
           </a>
         </nav>
 
-        <div className="hidden lg:block">
+        <div className="hidden">
           <a href={businessInfo.phoneHref}>
             <Button className="rounded-full">
               Call Now
@@ -93,7 +93,7 @@ export default function Header({ navigateTo }) {
 
         <button
           type="button"
-          className="lg:hidden rounded-full border border-stone-300 px-4 py-2 text-sm font-semibold text-stone-800"
+          className="rounded-full border border-stone-300 px-4 py-2 text-sm font-semibold text-stone-800"
           onClick={() => setMenuOpen((open) => !open)}
           aria-label="Toggle navigation menu"
         >
@@ -102,7 +102,7 @@ export default function Header({ navigateTo }) {
       </div>
 
  {menuOpen && (
-  <div className="lg:hidden border-t border-stone-200 bg-white px-6 py-5 shadow-lg">
+  <div className="border-t border-stone-200 bg-white px-6 py-5 shadow-lg">
     <nav className="flex flex-col gap-4 text-base font-semibold text-stone-800">
 <a
   href="/"
