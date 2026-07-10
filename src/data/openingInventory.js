@@ -118,18 +118,24 @@ export const openingInventory = [
     sku: "FAC",
     quantity: 1,
     finish: "Blue",
+    image:
+      "/products/inventory/folding-adirondack-chair-blue.jpg"
   },
   {
     name: "Folding Adirondack Chair",
     sku: "FAC",
     quantity: 1,
     finish: "Red",
+    image:
+      "/products/inventory/folding-adirondack-chair-red.jpg"
   },
   {
     name: "Folding Adirondack Chair",
     sku: "FAC",
     quantity: 1,
     finish: "White",
+    image:
+      "/products/inventory/folding-adirondack-chair-white.jpg"
   },
   {
     name: "Bayou Round Coffee Table 43",
