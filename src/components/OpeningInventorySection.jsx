@@ -16,19 +16,21 @@ export default function OpeningInventorySection() {
     <section className="bg-stone-100 px-6 py-16 border-y border-stone-200">
       <div className="max-w-6xl mx-auto">
         <div className="max-w-3xl mb-10">
-          <p className="mb-3 text-sm uppercase tracking-[0.25em] text-stone-500">
-            Opening Inventory Arriving Soon
-          </p>
+      <p className="mb-3 text-sm uppercase tracking-[0.25em] text-stone-500">
+  Now In Stock
+</p>
 
-          <h2 className="text-4xl font-bold mb-5">
-            Preparing for Our First Inventory Arrival
-          </h2>
+         <h2 className="text-4xl font-bold mb-5">
+  Opening Inventory Has Arrived
+</h2>
 
-          <p className="text-lg text-stone-600 leading-relaxed">
-            Westonka Outdoor Living is currently preparing to receive our
-            opening inventory of premium HDPE outdoor furniture for Minnesota
-            lake homes, patios, docks, decks, and fire pit spaces.
-          </p>
+         <p className="text-lg text-stone-600 leading-relaxed">
+  Our opening inventory has officially arrived! Visit our showroom to
+  explore premium Amish-made HDPE outdoor furniture, including
+  Adirondack chairs, dining sets, fire pit seating, counter-height
+  furniture, gliders, and more. Inventory is available now while
+  supplies last.
+</p>
 
           <button
             onClick={() => {
@@ -37,7 +39,7 @@ export default function OpeningInventorySection() {
             }}
             className="mt-8 rounded-full bg-neutral-900 px-7 py-4 text-lg font-semibold text-white transition hover:bg-neutral-700"
           >
-            View Opening Inventory
+            View In-Stock Inventory
           </button>
         </div>
 

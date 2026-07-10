@@ -22,72 +22,96 @@ export const openingInventory = [
     sku: "BCH4242",
     quantity: 1,
     finish: "Brazilian on Black",
+    image:
+      "/products/inventory/bayou-counter-table-brazilan-black-4242.jpg",
   },
   {
     name: "Bayou Adirondack Swivel Counter Chair HD",
     sku: "BASCCHD",
     quantity: 4,
     finish: "Brazilian on Black",
+    image:
+      "/products/inventory/bayou-adirondack-swivel-counter-chair-brazilian-black.jpg",
   },
   {
     name: "Bayou Counter Table 42x42",
     sku: "BCH4242",
     quantity: 1,
     finish: "Coastal on Black",
+    image:
+      "/products/inventory/bayou-counter-table-coastal-black-4242.jpg",
   },
   {
     name: "Bayou Adirondack Swivel Counter Chair HD",
     sku: "BASCCHD",
     quantity: 4,
     finish: "Coastal on Black",
+    image:
+      "/products/inventory/bayou-adirondack-swivel-counter-chair-coastal-black.jpg",
   },
   {
     name: "Urban Leisure Chair",
     sku: "ULC",
     quantity: 4,
     finish: "Brazilian on Black",
+    image:
+      "/products/inventory/urban-leisure-brazilian-black.jpg",
   },
   {
     name: "Adirondack Swivel Glider",
     sku: "ASGCHD",
     quantity: 10,
     finish: "Brazilian on Black",
+    image:
+      "/products/inventory/adirondack-swivel-glider-brazilian-black.jpg",
   },
   {
     name: "Adirondack Swivel Glider",
     sku: "ASGCHD",
     quantity: 10,
     finish: "Coastal on Black",
+    image:
+      "/products/inventory/adirondack-swivel-glider-coastal-black.jpg",
   },
   {
     name: "Bayou Dining Table 42x75",
     sku: "BDH4275",
     quantity: 1,
     finish: "Brazilian on Black",
+    image:
+      "/products/inventory/bayou-dining-table-brazilian-black-4275.jpg",
   },
   {
     name: "Bayou Dining Table 42x75",
     sku: "BDH4275",
     quantity: 1,
     finish: "Coastal on Black",
+    image:
+      "/products/inventory/bayou-dining-table-coastal-black-4275.jpg",
   },
   {
     name: "Urban Leisure Chair",
     sku: "ULC",
     quantity: 4,
     finish: "Coastal on Black",
+    image:
+      "/products/inventory/urban-leisure-coastal-black.jpg",
   },
   {
     name: "Round Side Table 22\"",
     sku: "RST22",
     quantity: 2,
     finish: "Brazilian on Black",
+    image:
+      "/products/inventory/round-side-table-22-brazilian-black.jpg",
   },
   {
     name: "Round Side Table 22\"",
     sku: "RST22",
     quantity: 2,
     finish: "Coastal on Black",
+    image:
+      "/products/inventory/round-side-table-22-coastal-black.jpg",
   },
   {
     name: "Folding Adirondack Chair",
@@ -112,11 +136,15 @@ export const openingInventory = [
     sku: "BRCT43",
     quantity: 1,
     finish: "Brazilian on Black",
+    image:
+      "/products/inventory/bayou-round-coffee-table-43-brazilian-black.jpg"
   },
   {
     name: "Bayou Round Coffee Table 43",
     sku: "BRCT43",
     quantity: 1,
     finish: "Coastal on Black",
+    image:
+      "/products/inventory/bayou-round-coffee-table-43-coastal-black.jpg"
   },
 ];
