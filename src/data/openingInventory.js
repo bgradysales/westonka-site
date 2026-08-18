@@ -1,31 +1,5 @@
 export const openingInventory = [
 {
-  name: "Urban Leisure Chair",
-  sku: "ULC",
-  quantity: 6,
-  finish: "Birch on Driftwood",
-  msrp: 665,
-  salePrice: 499,
-  sold: true,
-},
-
-{
-  name: "Topical 37\" Bar Table",
-  sku: "RBT37T",
-  quantity: 1,
-  finish: "Birch on Driftwood",
-  sold: true,
-},
-
-{
-  name: "Bayou Waterfall Swivel Bar Chair HD",
-  sku: "BWSBCHD",
-  quantity: 2,
-  finish: "Birch on Driftwood",
-  sold: true,
-},
-
-  {
     name: "Bayou Counter Table 42x42",
     sku: "BCH4242",
     quantity: 1,
