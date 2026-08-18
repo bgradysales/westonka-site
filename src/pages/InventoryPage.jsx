@@ -28,7 +28,7 @@ export default function InventoryPage({ navigateTo }) {
           <p className="max-w-3xl text-lg leading-relaxed text-stone-600">
             Our first shipment of premium HDPE outdoor furniture is now
             available at Westonka Outdoor Living. Browse the colors, styles,
-            and quantities currently in stock.
+            quantities, and current pricing on pieces available now.
           </p>
 
           <p className="mt-5 max-w-3xl text-lg font-semibold text-emerald-700">
@@ -41,8 +41,8 @@ export default function InventoryPage({ navigateTo }) {
       <section className="px-6 pb-20">
         <div className="mx-auto max-w-7xl">
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-            {openingInventory.map((item, index) => {
-              const sold = index < 3;
+{openingInventory.map((item) => {
+  const sold = item.sold;
 
               return (
                 <div
@@ -87,7 +87,22 @@ export default function InventoryPage({ navigateTo }) {
                       </strong>
                     </p>
 
-                    <p className="mt-2 text-stone-600">
+                    {item.msrp && item.salePrice && (
+                      <div className="mt-5">
+                        <p className="text-sm text-stone-500">
+                          MSRP{" "}
+                          <span className="line-through">
+                            ${item.msrp.toLocaleString()}
+                          </span>
+                        </p>
+
+                        <p className="mt-1 text-3xl font-bold text-emerald-700">
+                          ${item.salePrice.toLocaleString()}
+                        </p>
+                      </div>
+                    )}
+
+                    <p className="mt-4 text-stone-600">
                       {sold ? (
                         <strong className="text-red-700">
                           Sold from opening inventory
