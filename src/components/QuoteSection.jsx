@@ -193,8 +193,16 @@ async function handleSubmit(event) {
       throw new Error("Form submission failed");
     }
 
-    form.reset();
-    setSubmitted(true);
+form.reset();
+
+if (typeof window.gtag === "function") {
+  window.gtag("event", "generate_lead", {
+    event_category: "Lead",
+    event_label: "Quote Request Form",
+  });
+}
+
+setSubmitted(true);
   } catch (error) {
     alert("Something went wrong. Please call us at 612-562-9933.");
   }
